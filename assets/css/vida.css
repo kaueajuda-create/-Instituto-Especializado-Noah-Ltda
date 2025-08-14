@@ -1,0 +1,57 @@
+.main-menu .navigation > li > a {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main-menu .navigation > li > a:before {
+    background: rgba(142, 249, 49, 0.1);
+}
+.header-top {
+    padding: 5px 0;
+}
+.header-top {
+}
+.top-inner a {
+    color: #fff;
+    font-size: 14px;
+}
+.top-inner a i {
+    color: chartreuse;
+}
+.whats {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 10000;
+    animation: tada 2s infinite;
+}
+.whats a {
+    background-color: #00bf49;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 40px;
+    display: block;
+}
+.whats a:hover {
+    background-color: #13d45d;
+}
+.main-header.fixed-header .header-lower {
+    position: fixed;
+    top: 0;
+}
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.blink {
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+}

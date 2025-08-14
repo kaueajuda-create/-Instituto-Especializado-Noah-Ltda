@@ -1,0 +1,56 @@
+.header-style-two .header-top {
+    padding-left: 0;
+    padding-right: 0;
+}
+.about-style-two {
+    background-image: url(../images/bg.jpg?1);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.switcher .switch_btn button,
+button.rtl,
+button.ltr,
+.theme-btn.btn-one,
+.theme-btn span:before,
+.theme-btn span:after,
+.feature-block-one .inner-box:before,
+.image_block_one .image-box .icon-two,
+.service-block-one .inner-box .image-box .icon-box,
+.video-section .inner-box .video-btn a,
+.theme-btn.btn-three:before,
+.theme-btn.btn-three:after,
+.pricing-block-one.active-block .pricing-table .theme-btn.btn-three,
+.feature-block-two .inner-box .icon-box:before,
+.content_block_one .content-box .lower-box .experience-box .icon-box,
+.progress-box .bar-inner,
+.image_block_two .image-box .icon-box,
+.accordion .acc-btn.active,
+.image_block_three .image-box .icon-box,
+.sortable-masonry .filter-tabs li.active,
+.info-block-one .inner-box .icon-box,
+.pagination li a:hover,
+.pagination li a.current,
+.blog-sidebar .tags-widget .tags-list li a:hover,
+.blog-details-content .post-tags .tags-list li a:hover {
+    background-color: #50b848 !important;
+}
+.chooseus-block-one .inner-box h3 {
+    font-size: 22px;
+}
+.chooseus-section {
+    padding: 114px 0px 50px 0px;
+}
+.team-block-two .inner-box .lower-content {
+    margin-top: 0;
+}
+.team-block-two .inner-box {
+    background-color: transparent;
+}
+.block-bg {
+    background-color: #50b848;
+    display: inline-block;
+    color: #fff;
+    padding: 3px;
+    font-weight: bold;
+}
