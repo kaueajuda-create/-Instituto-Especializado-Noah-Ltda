@@ -18,18 +18,21 @@ body {
     margin-top: 20px;
 }
 .box {
-    background-color:#fff;
+    background-color:rgba(0255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
 }
-main h2.title {
+.inter .box {
+    min-height: 303px;
+}
+main .title {
     color: #fff;
     font-weight: 900;
 }
-main h2.title span {
+main .title span {
     color: #93c01f;
 }
 .accordion-box .block .acc-content {
@@ -91,4 +94,17 @@ main h2.title span {
     position: relative;
     z-index: 1;
     color: white;
+}
+.accordion {
+    background:rgba(255, 255, 255, 0.8)!important;
+}
+.accordion .acc-btn {
+    background:rgba(255, 255, 255, 0.4)!important;
+}
+.accordion .acc-btn.active {
+    background: rgba(45, 46, 130, 0.9)!important;
+}
+p,
+.chooseus-style-two .chooseus-block-one .inner-box p {
+    color:#000;
 }
