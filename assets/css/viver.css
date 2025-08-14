@@ -113,3 +113,20 @@ p,
 .chooseus-style-two .chooseus-block-one .inner-box p {
     color: #000;
 }
+.whats {
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    z-index:10000;
+    animation: shakeX 2s infinite;
+}
+.whats a {
+    background-color:#00bf49;
+    color:#fff;
+    padding:10px 15px;
+    border-radius: 40px;
+    display: block;
+}
+.whats a:hover {
+    background-color:#13d45d;
+}
