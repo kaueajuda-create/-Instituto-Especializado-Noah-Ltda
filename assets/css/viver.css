@@ -106,6 +106,9 @@ main .title span {
 .accordion .acc-btn.active {
     background: rgba(45, 46, 130, 0.9) !important;
 }
+.chooseus-style-two .chooseus-block:first-child .chooseus-block-one .inner-box, .chooseus-style-two .chooseus-block:nth-child(2) .chooseus-block-one .inner-box {
+    border-color: transparent!important;
+}
 p,
 .chooseus-style-two .chooseus-block-one .inner-box p {
     color: #000;
