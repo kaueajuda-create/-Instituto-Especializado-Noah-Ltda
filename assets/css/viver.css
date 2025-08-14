@@ -9,7 +9,7 @@ body {
     font-family: "Nunito", sans-serif;
 }
 .logo-wrapper {
-    background-color:#fff;
+    background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -18,15 +18,17 @@ body {
     margin-top: 20px;
 }
 .box {
-    background-color:rgba(0255, 255, 255, 0.8);
+    background-color: rgba(0255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
 }
-.inter .box {
-    min-height: 303px;
+@media (max-width: 592px) {
+    .inter .box {
+        min-height: 303px;
+    }
 }
 main .title {
     color: #fff;
@@ -96,15 +98,15 @@ main .title span {
     color: white;
 }
 .accordion {
-    background:rgba(255, 255, 255, 0.8)!important;
+    background: rgba(255, 255, 255, 0.8) !important;
 }
 .accordion .acc-btn {
-    background:rgba(255, 255, 255, 0.4)!important;
+    background: rgba(255, 255, 255, 0.4) !important;
 }
 .accordion .acc-btn.active {
-    background: rgba(45, 46, 130, 0.9)!important;
+    background: rgba(45, 46, 130, 0.9) !important;
 }
 p,
 .chooseus-style-two .chooseus-block-one .inner-box p {
-    color:#000;
+    color: #000;
 }
